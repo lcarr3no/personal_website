@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from "../components/navBar.jsx";
 // Using a more explicit import path
 import artImage from "../../app/assets/art.jpg";
+import iconImage from "../../app/assets/icon.png";
 
 const HomePage = () => {
     return (
@@ -18,7 +19,7 @@ const HomePage = () => {
                     <div className="ms-35 py-10 text-sm w-100 text-sky-50 font-md">
 
                         <text>
-                            I'm a 22-year-old <text className="font-bold text-lrg text-sky-0 italic">Software Developer</text>. <p>Rowan University graduate with a B.S.</p> <p>in Computer Science. I am skilled in:</p>
+                            I'm a 22-year-old <text className="font-bold text-lrg text-sky-0 italic"> aspiring Software Developer</text>. <p>Rowan University graduate with a B.S.</p> <p>in Computer Science. I am skilled in:</p>
                             <br></br>
                             <ul className="ms-10 list-disc">
                                 <li><span className="text-sky-50 font-bold">Java</span></li>
@@ -43,7 +44,7 @@ const HomePage = () => {
 
                 {/*     Right side of the page           */}
                 <div className="flex flex-col justify-center">
-                    <img src={artImage} className="ms-30 w-100 rounded-lg h-75" alt="Art" />
+                    <img src={artImage} className="ms-30 w-100  shadow-2xl rounded-lg h-75" alt="Art" />
                 </div>
             </div>
         </div>
