@@ -4,6 +4,7 @@ import HomePage from './app/routes/homePage.jsx'
 import AboutPage from './app/routes/aboutPage.jsx'
 import ProjectsPage from './app/routes/projectsPage.jsx'
 import ResumePage from './app/routes/resumePage.jsx'
+import NavBar from "./app/components/navBar.jsx";
 
 export default function App() {
   return (
