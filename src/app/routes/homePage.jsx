@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from "../components/navBar.jsx";
 // Using a more explicit import path
 import artImage from "../../app/assets/art.jpg";
-import iconImage from "../../app/assets/icon.png";
+
 
 const HomePage = () => {
     return (

@@ -3,7 +3,7 @@ import {Flex, Text} from "@aws-amplify/ui-react";
 
 const TechStack = ( {stack} ) => {
     return (
-        <Text className="text-md p-3 font-bold" fontWeight={"bold"}>
+        <Text className="text-md p-2 font-bold" fontWeight={"bold"}>
             Tech Stack:
             <Flex direction={"column"} align={"center"}>
                 {stack.map((item, index) => (

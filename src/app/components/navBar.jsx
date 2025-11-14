@@ -5,7 +5,7 @@ import { Link } from 'react-router'
 
 const NavBar = () => {
     const handleClick = () => {
-        window.location.href = 'mailto:yourname@example.com?subject=Portfolio reach out&body=I saw your portfolio and wanted to connect.';
+        window.location.href = 'mailto:luis.carr3no.web@gmail.com?subject=Portfolio reach out&body=I saw your portfolio and wanted to connect.';
     };
 
     return (
